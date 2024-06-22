@@ -7,20 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A3079C42C2639B5004FD332 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A3079C32C2639B5004FD332 /* Pacifico-Regular.ttf */; };
 		2A7C595E2C260BFE00850B32 /* TheResistanceGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C595D2C260BFE00850B32 /* TheResistanceGameApp.swift */; };
 		2A7C59602C260BFE00850B32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C595F2C260BFE00850B32 /* ContentView.swift */; };
 		2A7C59622C260BFE00850B32 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C59612C260BFE00850B32 /* Item.swift */; };
 		2A7C59642C260C0000850B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7C59632C260C0000850B32 /* Assets.xcassets */; };
 		2A7C59672C260C0000850B32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7C59662C260C0000850B32 /* Preview Assets.xcassets */; };
+		2A7C596E2C260C7700850B32 /* PlayerSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C596D2C260C7700850B32 /* PlayerSetupView.swift */; };
+		2A7C59702C260CC400850B32 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C596F2C260CC400850B32 /* GameState.swift */; };
+		2A7C59722C260EB000850B32 /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C59712C260EB000850B32 /* GameService.swift */; };
+		2A7C59752C260F5900850B32 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2A7C59742C260F5900850B32 /* FirebaseAuth */; };
+		2A7C59772C260F5900850B32 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2A7C59762C260F5900850B32 /* FirebaseDatabase */; };
+		2A7C59792C260F5900850B32 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2A7C59782C260F5900850B32 /* FirebaseDatabaseSwift */; };
+		2A7C597B2C260F5900850B32 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2A7C597A2C260F5900850B32 /* FirebaseFirestore */; };
+		2A7C597D2C260F5900850B32 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2A7C597C2C260F5900850B32 /* FirebaseFirestoreSwift */; };
+		2A7C597F2C260F5900850B32 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2A7C597E2C260F5900850B32 /* FirebaseStorage */; };
+		2A7C59832C26107200850B32 /* WaitingLobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C59822C26107200850B32 /* WaitingLobbyView.swift */; };
+		2A7C59872C26126300850B32 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A7C59862C26126300850B32 /* GoogleService-Info.plist */; };
+		2A7C598A2C2622A900850B32 /* CustomTextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C59892C2622A900850B32 /* CustomTextBox.swift */; };
+		2A7C598C2C2622F600850B32 /* HostOrJoinLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C598B2C2622F600850B32 /* HostOrJoinLabel.swift */; };
+		2AA04A392C263A760043A514 /* Knewave-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA04A382C263A760043A514 /* Knewave-Regular.ttf */; };
+		2AA04A3B2C265CD70043A514 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA04A3A2C265CD70043A514 /* NavigationViewModel.swift */; };
+		2AA04A3D2C267F1A0043A514 /* ConcertOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA04A3C2C267F1A0043A514 /* ConcertOne-Regular.ttf */; };
+		2AA04A3F2C268F3C0043A514 /* SpyRevealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA04A3E2C268F3C0043A514 /* SpyRevealView.swift */; };
+		2AA04A412C26905D0043A514 /* Dangrek-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA04A402C26905D0043A514 /* Dangrek-Regular.ttf */; };
+		2AA04A432C2694F10043A514 /* ResistanceRevealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA04A422C2694F10043A514 /* ResistanceRevealView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A3079C12C26396C004FD332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2A3079C32C2639B5004FD332 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		2A7C595A2C260BFE00850B32 /* TheResistanceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheResistanceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A7C595D2C260BFE00850B32 /* TheResistanceGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheResistanceGameApp.swift; sourceTree = "<group>"; };
 		2A7C595F2C260BFE00850B32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A7C59612C260BFE00850B32 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		2A7C59632C260C0000850B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A7C59662C260C0000850B32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A7C596D2C260C7700850B32 /* PlayerSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSetupView.swift; sourceTree = "<group>"; };
+		2A7C596F2C260CC400850B32 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		2A7C59712C260EB000850B32 /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
+		2A7C59822C26107200850B32 /* WaitingLobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingLobbyView.swift; sourceTree = "<group>"; };
+		2A7C59862C26126300850B32 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2A7C59892C2622A900850B32 /* CustomTextBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextBox.swift; sourceTree = "<group>"; };
+		2A7C598B2C2622F600850B32 /* HostOrJoinLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostOrJoinLabel.swift; sourceTree = "<group>"; };
+		2AA04A382C263A760043A514 /* Knewave-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Knewave-Regular.ttf"; sourceTree = "<group>"; };
+		2AA04A3A2C265CD70043A514 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
+		2AA04A3C2C267F1A0043A514 /* ConcertOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ConcertOne-Regular.ttf"; sourceTree = "<group>"; };
+		2AA04A3E2C268F3C0043A514 /* SpyRevealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyRevealView.swift; sourceTree = "<group>"; };
+		2AA04A402C26905D0043A514 /* Dangrek-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dangrek-Regular.ttf"; sourceTree = "<group>"; };
+		2AA04A422C2694F10043A514 /* ResistanceRevealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistanceRevealView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,12 +63,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7C597D2C260F5900850B32 /* FirebaseFirestoreSwift in Frameworks */,
+				2A7C59792C260F5900850B32 /* FirebaseDatabaseSwift in Frameworks */,
+				2A7C597B2C260F5900850B32 /* FirebaseFirestore in Frameworks */,
+				2A7C59772C260F5900850B32 /* FirebaseDatabase in Frameworks */,
+				2A7C59752C260F5900850B32 /* FirebaseAuth in Frameworks */,
+				2A7C597F2C260F5900850B32 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A3079C22C2639A6004FD332 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2A3079C32C2639B5004FD332 /* Pacifico-Regular.ttf */,
+				2AA04A402C26905D0043A514 /* Dangrek-Regular.ttf */,
+				2AA04A3C2C267F1A0043A514 /* ConcertOne-Regular.ttf */,
+				2AA04A382C263A760043A514 /* Knewave-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		2A7C59512C260BFE00850B32 = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +105,15 @@
 		2A7C595C2C260BFE00850B32 /* TheResistanceGame */ = {
 			isa = PBXGroup;
 			children = (
+				2A3079C22C2639A6004FD332 /* Fonts */,
+				2A3079C12C26396C004FD332 /* Info.plist */,
+				2A7C59882C26229000850B32 /* Components */,
+				2A7C59812C26104A00850B32 /* Models */,
+				2A7C59802C26103E00850B32 /* Views */,
 				2A7C595D2C260BFE00850B32 /* TheResistanceGameApp.swift */,
 				2A7C595F2C260BFE00850B32 /* ContentView.swift */,
 				2A7C59612C260BFE00850B32 /* Item.swift */,
+				2A7C59862C26126300850B32 /* GoogleService-Info.plist */,
 				2A7C59632C260C0000850B32 /* Assets.xcassets */,
 				2A7C59652C260C0000850B32 /* Preview Content */,
 			);
@@ -68,6 +126,36 @@
 				2A7C59662C260C0000850B32 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A7C59802C26103E00850B32 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A7C596D2C260C7700850B32 /* PlayerSetupView.swift */,
+				2A7C59822C26107200850B32 /* WaitingLobbyView.swift */,
+				2AA04A3E2C268F3C0043A514 /* SpyRevealView.swift */,
+				2AA04A422C2694F10043A514 /* ResistanceRevealView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A7C59812C26104A00850B32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A7C59712C260EB000850B32 /* GameService.swift */,
+				2A7C596F2C260CC400850B32 /* GameState.swift */,
+				2AA04A3A2C265CD70043A514 /* NavigationViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A7C59882C26229000850B32 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2A7C59892C2622A900850B32 /* CustomTextBox.swift */,
+				2A7C598B2C2622F600850B32 /* HostOrJoinLabel.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +174,14 @@
 			dependencies = (
 			);
 			name = TheResistanceGame;
+			packageProductDependencies = (
+				2A7C59742C260F5900850B32 /* FirebaseAuth */,
+				2A7C59762C260F5900850B32 /* FirebaseDatabase */,
+				2A7C59782C260F5900850B32 /* FirebaseDatabaseSwift */,
+				2A7C597A2C260F5900850B32 /* FirebaseFirestore */,
+				2A7C597C2C260F5900850B32 /* FirebaseFirestoreSwift */,
+				2A7C597E2C260F5900850B32 /* FirebaseStorage */,
+			);
 			productName = TheResistanceGame;
 			productReference = 2A7C595A2C260BFE00850B32 /* TheResistanceGame.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +210,9 @@
 				Base,
 			);
 			mainGroup = 2A7C59512C260BFE00850B32;
+			packageReferences = (
+				2A7C59732C260F5900850B32 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 2A7C595B2C260BFE00850B32 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,8 +227,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA04A412C26905D0043A514 /* Dangrek-Regular.ttf in Resources */,
 				2A7C59672C260C0000850B32 /* Preview Assets.xcassets in Resources */,
+				2AA04A3D2C267F1A0043A514 /* ConcertOne-Regular.ttf in Resources */,
+				2A3079C42C2639B5004FD332 /* Pacifico-Regular.ttf in Resources */,
+				2AA04A392C263A760043A514 /* Knewave-Regular.ttf in Resources */,
 				2A7C59642C260C0000850B32 /* Assets.xcassets in Resources */,
+				2A7C59872C26126300850B32 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +245,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A7C59602C260BFE00850B32 /* ContentView.swift in Sources */,
+				2A7C596E2C260C7700850B32 /* PlayerSetupView.swift in Sources */,
+				2AA04A3F2C268F3C0043A514 /* SpyRevealView.swift in Sources */,
+				2A7C59832C26107200850B32 /* WaitingLobbyView.swift in Sources */,
+				2AA04A432C2694F10043A514 /* ResistanceRevealView.swift in Sources */,
+				2A7C59702C260CC400850B32 /* GameState.swift in Sources */,
+				2A7C598C2C2622F600850B32 /* HostOrJoinLabel.swift in Sources */,
+				2A7C59722C260EB000850B32 /* GameService.swift in Sources */,
+				2AA04A3B2C265CD70043A514 /* NavigationViewModel.swift in Sources */,
 				2A7C59622C260BFE00850B32 /* Item.swift in Sources */,
 				2A7C595E2C260BFE00850B32 /* TheResistanceGameApp.swift in Sources */,
+				2A7C598A2C2622A900850B32 /* CustomTextBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +392,7 @@
 				DEVELOPMENT_TEAM = V7FZ6TUJS4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheResistanceGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,6 +422,7 @@
 				DEVELOPMENT_TEAM = V7FZ6TUJS4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheResistanceGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -348,6 +463,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A7C59732C260F5900850B32 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A7C59742C260F5900850B32 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A7C59732C260F5900850B32 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2A7C59762C260F5900850B32 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A7C59732C260F5900850B32 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		2A7C59782C260F5900850B32 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A7C59732C260F5900850B32 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		2A7C597A2C260F5900850B32 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A7C59732C260F5900850B32 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		2A7C597C2C260F5900850B32 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A7C59732C260F5900850B32 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		2A7C597E2C260F5900850B32 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A7C59732C260F5900850B32 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2A7C59522C260BFE00850B32 /* Project object */;
 }

@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import Firebase
 
 @main
 struct TheResistanceGameApp: App {
@@ -22,10 +23,20 @@ struct TheResistanceGameApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
+    
+//    @StateObject var gameState = GameState(id: "123")
+    @StateObject var gameService = GameService()
+    @StateObject var navigationView = NavigationViewModel()
+    init () {
+        FirebaseApp.configure()
+    }
 
     var body: some Scene {
         WindowGroup {
             ContentView()
+//                .environmentObject(gameState)
+                .environmentObject(gameService)
+                .environmentObject(navigationView)
         }
         .modelContainer(sharedModelContainer)
     }
