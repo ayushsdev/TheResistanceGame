@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct SpyRevealView: View {
+//    @EnvironmentObject var gameService: GameService
+    @EnvironmentObject var navigationView: NavigationViewModel
     @EnvironmentObject var gameService: GameService
+    @Environment(\.dismiss) var dismiss
+
     
     private var spyNames: String {
         let spies = gameService.gameState.players.filter { $0.role == .spy }
@@ -36,7 +40,10 @@ struct SpyRevealView: View {
               .foregroundStyle(Color(.white))
             
             Button {
-                print("Button clicked")
+//                navigationView.currentView = .mainGame
+                gameService.wasRoleRevealed = true
+                dismiss()
+
             } label: {
                 Text("Continue ->")
                     .font(Font.custom("Concert One", size: 36))
@@ -59,9 +66,12 @@ struct SpyRevealView: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Image("spy-bg").resizable().ignoresSafeArea())
+        .interactiveDismissDisabled()
     }
 }
 
 #Preview {
     SpyRevealView()
+        .environmentObject(GameService())
+        .environmentObject(NavigationViewModel())
 }

@@ -22,10 +22,14 @@ struct ContentView: View {
                     PlayerSetupView()
                 case .waitingLobby:
                     WaitingLobbyView()
-                case .spyReveal:
-                    SpyRevealView()
-                case .resistanceReveal:
-                    ResistanceRevealView()
+//                case .spyReveal:
+//                    SpyRevealView()
+//                case .resistanceReveal:
+//                    ResistanceRevealView()
+                case .mainGame:
+                    MainGameView()
+                case .gameEnd:
+                    gameEnd()
                 }
             }
             .onChange(of: gameService.gameState.currentPhase) { oldPhase, newPhase in

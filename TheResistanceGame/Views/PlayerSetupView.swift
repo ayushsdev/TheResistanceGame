@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct PlayerSetupView: View {
 //    @EnvironmentObject var gameState: GameState
     @EnvironmentObject var gameService: GameService
@@ -62,6 +61,7 @@ struct PlayerSetupView: View {
                         .cornerRadius(8)
                         .padding(.top, 50)
                 }
+                .disabled(!isFormValid)
                 
                 Spacer()
 
@@ -98,12 +98,20 @@ struct PlayerSetupView: View {
         )
     }
     
+    private var isFormValid: Bool {
+        if StartState == .host {
+            return !playerName.isEmpty
+        } else {
+            return !playerName.isEmpty && !joinCode.isEmpty
+        }
+    }
+    
     private func hostNewGame() {
         gameService.hostGame(playerName: playerName) { result in
             switch result {
             case .success():
-                print("Game Hosted Successfully")
-                print(gameService.gameState.players)
+//                print("Game Hosted Successfully")
+//                print(gameService.gameState.players)
                 navigationView.currentView = .waitingLobby
             case .failure(let error):
                 print("Failed to host game: \(error.localizedDescription)")
@@ -115,8 +123,6 @@ struct PlayerSetupView: View {
         gameService.joinGame(gameId: joinCode, playerName: playerName) { result in
             switch result {
             case .success(let playerId):
-                print("Game joined successfully. Player ID: \(playerId)")
-                print(gameService.gameState.players)
                 navigationView.currentView = .waitingLobby
                 
             case .failure(let error):

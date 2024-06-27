@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct ResistanceRevealView: View {
+    @EnvironmentObject var navigationView: NavigationViewModel
+    @EnvironmentObject var gameService: GameService
+    @Environment(\.dismiss) var dismiss
+
+
     var body: some View {
         VStack (spacing: 0) {
             Text("You're part of ")
@@ -21,7 +26,9 @@ struct ResistanceRevealView: View {
               .padding(.top, 20)
             
             Button {
-                print("BUtton clicked")
+//                navigationView.currentView = .mainGame
+                gameService.wasRoleRevealed = true
+                dismiss()
             } label: {
                 Text("Continue ->")
                     .font(Font.custom("Concert One", size: 36))
@@ -44,11 +51,13 @@ struct ResistanceRevealView: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Image("resistance-bg").resizable().ignoresSafeArea())
-
+        .interactiveDismissDisabled()
         
     }
 }
 
 #Preview {
     ResistanceRevealView()
+        .environmentObject(GameService())
+        .environmentObject(NavigationViewModel())
 }

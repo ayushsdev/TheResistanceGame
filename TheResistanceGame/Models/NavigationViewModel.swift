@@ -14,7 +14,9 @@ class NavigationViewModel: ObservableObject {
     enum navigationViews {
         case hostOrJoin
         case waitingLobby
-        case spyReveal
-        case resistanceReveal
+//        case spyReveal
+//        case resistanceReveal
+        case mainGame
+        case gameEnd
     }
 }

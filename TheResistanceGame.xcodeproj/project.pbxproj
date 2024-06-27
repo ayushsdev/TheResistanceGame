@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1DFAA82C291DD10097BB65 /* MissionVotingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DFAA72C291DD10097BB65 /* MissionVotingView.swift */; };
 		2A3079C42C2639B5004FD332 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A3079C32C2639B5004FD332 /* Pacifico-Regular.ttf */; };
+		2A3F35B12C2CD63900B771CF /* gameEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F35B02C2CD63900B771CF /* gameEnd.swift */; };
 		2A7C595E2C260BFE00850B32 /* TheResistanceGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C595D2C260BFE00850B32 /* TheResistanceGameApp.swift */; };
 		2A7C59602C260BFE00850B32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C595F2C260BFE00850B32 /* ContentView.swift */; };
 		2A7C59622C260BFE00850B32 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C59612C260BFE00850B32 /* Item.swift */; };
@@ -32,11 +34,25 @@
 		2AA04A3F2C268F3C0043A514 /* SpyRevealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA04A3E2C268F3C0043A514 /* SpyRevealView.swift */; };
 		2AA04A412C26905D0043A514 /* Dangrek-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA04A402C26905D0043A514 /* Dangrek-Regular.ttf */; };
 		2AA04A432C2694F10043A514 /* ResistanceRevealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA04A422C2694F10043A514 /* ResistanceRevealView.swift */; };
+		2AA04A452C27529F0043A514 /* MissionDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA04A442C27529F0043A514 /* MissionDashboard.swift */; };
+		2AA04A472C27532C0043A514 /* MissionCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA04A462C27532C0043A514 /* MissionCircle.swift */; };
+		2AA04A492C277BE10043A514 /* MainGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA04A482C277BE10043A514 /* MainGameView.swift */; };
+		2AA04A4B2C277E590043A514 /* Itim-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA04A4A2C277E590043A514 /* Itim-Regular.ttf */; };
+		2AA04A4D2C2797A60043A514 /* MissionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA04A4C2C2797A60043A514 /* MissionDetailView.swift */; };
+		2AA04A4F2C27A3590043A514 /* JockeyOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA04A4E2C27A3590043A514 /* JockeyOne-Regular.ttf */; };
+		2AA04A512C27A8550043A514 /* MoreMissionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA04A502C27A8550043A514 /* MoreMissionDetailView.swift */; };
+		2AA04A532C27F7130043A514 /* TeamSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA04A522C27F7130043A514 /* TeamSelectionView.swift */; };
+		2AA04A572C28EF0D0043A514 /* CurrentLeaderBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA04A562C28EF0D0043A514 /* CurrentLeaderBox.swift */; };
+		2ACF06C52C2CE316003C179F /* LobsterTwo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2ACF06C42C2CE315003C179F /* LobsterTwo-Regular.ttf */; };
+		2ACF06C72C2CE45F003C179F /* MouseMemoirs-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2ACF06C62C2CE45F003C179F /* MouseMemoirs-Regular.ttf */; };
+		2ACF06C92C2DCA1A003C179F /* PlayerOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACF06C82C2DCA1A003C179F /* PlayerOrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A1DFAA72C291DD10097BB65 /* MissionVotingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionVotingView.swift; sourceTree = "<group>"; };
 		2A3079C12C26396C004FD332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2A3079C32C2639B5004FD332 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		2A3F35B02C2CD63900B771CF /* gameEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameEnd.swift; sourceTree = "<group>"; };
 		2A7C595A2C260BFE00850B32 /* TheResistanceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheResistanceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A7C595D2C260BFE00850B32 /* TheResistanceGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheResistanceGameApp.swift; sourceTree = "<group>"; };
 		2A7C595F2C260BFE00850B32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +72,18 @@
 		2AA04A3E2C268F3C0043A514 /* SpyRevealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyRevealView.swift; sourceTree = "<group>"; };
 		2AA04A402C26905D0043A514 /* Dangrek-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dangrek-Regular.ttf"; sourceTree = "<group>"; };
 		2AA04A422C2694F10043A514 /* ResistanceRevealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistanceRevealView.swift; sourceTree = "<group>"; };
+		2AA04A442C27529F0043A514 /* MissionDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDashboard.swift; sourceTree = "<group>"; };
+		2AA04A462C27532C0043A514 /* MissionCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCircle.swift; sourceTree = "<group>"; };
+		2AA04A482C277BE10043A514 /* MainGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameView.swift; sourceTree = "<group>"; };
+		2AA04A4A2C277E590043A514 /* Itim-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Itim-Regular.ttf"; sourceTree = "<group>"; };
+		2AA04A4C2C2797A60043A514 /* MissionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailView.swift; sourceTree = "<group>"; };
+		2AA04A4E2C27A3590043A514 /* JockeyOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JockeyOne-Regular.ttf"; sourceTree = "<group>"; };
+		2AA04A502C27A8550043A514 /* MoreMissionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreMissionDetailView.swift; sourceTree = "<group>"; };
+		2AA04A522C27F7130043A514 /* TeamSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSelectionView.swift; sourceTree = "<group>"; };
+		2AA04A562C28EF0D0043A514 /* CurrentLeaderBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLeaderBox.swift; sourceTree = "<group>"; };
+		2ACF06C42C2CE315003C179F /* LobsterTwo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LobsterTwo-Regular.ttf"; sourceTree = "<group>"; };
+		2ACF06C62C2CE45F003C179F /* MouseMemoirs-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MouseMemoirs-Regular.ttf"; sourceTree = "<group>"; };
+		2ACF06C82C2DCA1A003C179F /* PlayerOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerOrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				2A3079C32C2639B5004FD332 /* Pacifico-Regular.ttf */,
+				2AA04A4A2C277E590043A514 /* Itim-Regular.ttf */,
+				2AA04A4E2C27A3590043A514 /* JockeyOne-Regular.ttf */,
 				2AA04A402C26905D0043A514 /* Dangrek-Regular.ttf */,
+				2ACF06C62C2CE45F003C179F /* MouseMemoirs-Regular.ttf */,
 				2AA04A3C2C267F1A0043A514 /* ConcertOne-Regular.ttf */,
 				2AA04A382C263A760043A514 /* Knewave-Regular.ttf */,
+				2ACF06C42C2CE315003C179F /* LobsterTwo-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -135,6 +167,12 @@
 				2A7C59822C26107200850B32 /* WaitingLobbyView.swift */,
 				2AA04A3E2C268F3C0043A514 /* SpyRevealView.swift */,
 				2AA04A422C2694F10043A514 /* ResistanceRevealView.swift */,
+				2AA04A482C277BE10043A514 /* MainGameView.swift */,
+				2AA04A502C27A8550043A514 /* MoreMissionDetailView.swift */,
+				2AA04A522C27F7130043A514 /* TeamSelectionView.swift */,
+				2A1DFAA72C291DD10097BB65 /* MissionVotingView.swift */,
+				2A3F35B02C2CD63900B771CF /* gameEnd.swift */,
+				2ACF06C82C2DCA1A003C179F /* PlayerOrderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +192,10 @@
 			children = (
 				2A7C59892C2622A900850B32 /* CustomTextBox.swift */,
 				2A7C598B2C2622F600850B32 /* HostOrJoinLabel.swift */,
+				2AA04A442C27529F0043A514 /* MissionDashboard.swift */,
+				2AA04A462C27532C0043A514 /* MissionCircle.swift */,
+				2AA04A4C2C2797A60043A514 /* MissionDetailView.swift */,
+				2AA04A562C28EF0D0043A514 /* CurrentLeaderBox.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -229,10 +271,14 @@
 			files = (
 				2AA04A412C26905D0043A514 /* Dangrek-Regular.ttf in Resources */,
 				2A7C59672C260C0000850B32 /* Preview Assets.xcassets in Resources */,
+				2ACF06C52C2CE316003C179F /* LobsterTwo-Regular.ttf in Resources */,
+				2AA04A4F2C27A3590043A514 /* JockeyOne-Regular.ttf in Resources */,
 				2AA04A3D2C267F1A0043A514 /* ConcertOne-Regular.ttf in Resources */,
+				2ACF06C72C2CE45F003C179F /* MouseMemoirs-Regular.ttf in Resources */,
 				2A3079C42C2639B5004FD332 /* Pacifico-Regular.ttf in Resources */,
 				2AA04A392C263A760043A514 /* Knewave-Regular.ttf in Resources */,
 				2A7C59642C260C0000850B32 /* Assets.xcassets in Resources */,
+				2AA04A4B2C277E590043A514 /* Itim-Regular.ttf in Resources */,
 				2A7C59872C26126300850B32 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,16 +292,26 @@
 			files = (
 				2A7C59602C260BFE00850B32 /* ContentView.swift in Sources */,
 				2A7C596E2C260C7700850B32 /* PlayerSetupView.swift in Sources */,
+				2AA04A532C27F7130043A514 /* TeamSelectionView.swift in Sources */,
+				2AA04A4D2C2797A60043A514 /* MissionDetailView.swift in Sources */,
+				2A3F35B12C2CD63900B771CF /* gameEnd.swift in Sources */,
 				2AA04A3F2C268F3C0043A514 /* SpyRevealView.swift in Sources */,
+				2AA04A512C27A8550043A514 /* MoreMissionDetailView.swift in Sources */,
+				2A1DFAA82C291DD10097BB65 /* MissionVotingView.swift in Sources */,
 				2A7C59832C26107200850B32 /* WaitingLobbyView.swift in Sources */,
+				2AA04A492C277BE10043A514 /* MainGameView.swift in Sources */,
+				2AA04A572C28EF0D0043A514 /* CurrentLeaderBox.swift in Sources */,
 				2AA04A432C2694F10043A514 /* ResistanceRevealView.swift in Sources */,
 				2A7C59702C260CC400850B32 /* GameState.swift in Sources */,
 				2A7C598C2C2622F600850B32 /* HostOrJoinLabel.swift in Sources */,
+				2ACF06C92C2DCA1A003C179F /* PlayerOrderView.swift in Sources */,
 				2A7C59722C260EB000850B32 /* GameService.swift in Sources */,
 				2AA04A3B2C265CD70043A514 /* NavigationViewModel.swift in Sources */,
 				2A7C59622C260BFE00850B32 /* Item.swift in Sources */,
 				2A7C595E2C260BFE00850B32 /* TheResistanceGameApp.swift in Sources */,
 				2A7C598A2C2622A900850B32 /* CustomTextBox.swift in Sources */,
+				2AA04A472C27532C0043A514 /* MissionCircle.swift in Sources */,
+				2AA04A452C27529F0043A514 /* MissionDashboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +375,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "The Resistance: Board Game";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -375,6 +432,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "The Resistance: Board Game";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -393,6 +451,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TheResistanceGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "The Resistance: Game";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -423,6 +482,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TheResistanceGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "The Resistance: Game";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

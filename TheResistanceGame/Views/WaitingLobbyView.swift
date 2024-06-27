@@ -11,7 +11,7 @@ struct WaitingLobbyView: View {
     @EnvironmentObject var gameService: GameService
     
     private var isHost: Bool {
-        return gameService.currentPlayer?.isHost ?? false
+        return gameService.currentPlayer.isHost 
     }
     
     var body: some View {
@@ -75,7 +75,9 @@ struct WaitingLobbyView: View {
                           .shadow(
                             color: Color(red: 0, green: 0, blue: 0, opacity: 0.50), radius: 4, y: 4
                           )
+                          .opacity((!(gameService.gameState.players.count > 4 && gameService.gameState.players.count < 11)) ? 0.8 : 1.0)
                 })
+                .disabled(!(gameService.gameState.players.count > 4 && gameService.gameState.players.count < 11))
                 .padding(.top, 40)
             } else {
                 Text("Waiting for Host To Start...")
@@ -94,6 +96,7 @@ struct WaitingLobbyView: View {
     
     private func startGame() {
         gameService.assignRoles()
+        gameService.selectRandomLeader()
     }
 }
 
